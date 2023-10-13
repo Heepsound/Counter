@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     func addHistory(_ description: String) {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "ru_RU")
-        dateFormatter.dateFormat = "dd MMMM yyyy hh:mm:ss"
+        dateFormatter.dateFormat = "dd MMMM yyyy HH:mm:ss"
         
         historyTextView.text.append("\n[\(dateFormatter.string(from: Date.now))]: \(description)")
     }
