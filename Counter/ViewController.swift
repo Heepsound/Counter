@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         counter += 1
     }
     
-    @IBAction func minusButtonTouchUoInside(_ sender: Any) {
+    @IBAction func minusButtonTouchUpInside(_ sender: Any) {
         isReset = false
         counter -= 1
     }

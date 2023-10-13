@@ -43,7 +43,7 @@
                                     <backgroundConfiguration key="background" image="minus.rectangle.fill" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="minusButtonTouchUoInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dtW-eb-Acr"/>
+                                    <action selector="minusButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mrb-zk-26e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3em-6y-p9q" userLabel="Clear Button">
@@ -55,7 +55,7 @@
                                     <backgroundConfiguration key="background" image="clear" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="clearButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nw7-ba-h2M"/>
+                                    <action selector="clearButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Phf-8q-NUB"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qir-H8-8kp" userLabel="History Text View">
